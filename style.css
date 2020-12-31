@@ -1,0 +1,47 @@
+.menu {
+    list-style: none;
+    font-family: 'Langar', cursive;
+    position: absolute;
+    z-index: 10;
+    cursor: pointer;
+}
+.lists {
+    float:left;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-size:20px;
+    font-family: 'Langar', cursive;
+}
+.lists:hover {
+    background-color: dodgerblue;
+    font-size: 23px;
+    
+}
+body{
+    text-align: center;
+    background-color: cyan;
+}
+.line{
+    height: 6px;
+    width:100;
+    background-color: black;
+    text-align: center;
+    margin-bottom: 50px;
+}
+#propic{
+    margin-top: 100px;
+    border-radius: 150px;
+}
+#name{
+   color: blue;
+   text-decoration: underline;
+}
+.shortline{
+    height: 6px;
+    width:75px;
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+}
